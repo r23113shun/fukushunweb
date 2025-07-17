@@ -1,0 +1,42 @@
+/* ベース設定 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+/* メインセクション */
+main {
+    padding: 2em;
+}
+
+/* ギャラリー */
+.gallery {
+    text-align: center;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
